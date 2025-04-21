@@ -17,7 +17,7 @@ A modern webpack template for JavaScript projects with SCSS support.
 ### Prerequisites
 
 - Node.js (v14 or higher)
-- npm or yarn
+- npm
 
 ### Installation
 
@@ -27,10 +27,15 @@ git clone https://github.com/yourusername/webpack-template.git
 cd webpack-template
 ```
 
-2. Install dependencies:
+2. Install dependencies using the setup script:
 ```bash
-npm install --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin css-loader style-loader html-loader webpack-merge eslint
+npm run setup
 ```
+
+This will install all necessary dependencies including:
+- Webpack and related plugins
+- ESLint for code linting
+- Development server
 
 ### Development
 
