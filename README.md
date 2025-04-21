@@ -23,7 +23,7 @@ A modern webpack template for JavaScript projects with SCSS support.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/webpack-template.git
+git clone https://github.com/chwebe/template-webpack
 cd webpack-template
 ```
 
